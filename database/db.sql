@@ -1,0 +1,22 @@
+-- drop database `banking_database`;
+create database if not exists `banking_database`;
+use `banking_database`;
+show tables;
+desc `amount_info`;
+desc `user_info`;
+desc `otp_info`;
+desc `document_info`;
+desc `amount_info_transactions`;
+desc `bankdetails_info`;
+desc `card_and_banking_info`;
+desc `transaction_info`;
+
+select * from `amount_info`;
+select * from `user_info`;
+select * from `otp_info`;
+select * from `document_info`;
+select * from `amount_info_transactions`;
+select * from `bankdetails_info`;
+select * from `card_and_banking_info`;
+select * from `transaction_info`;
+select `next_val` from `customer_id`;
